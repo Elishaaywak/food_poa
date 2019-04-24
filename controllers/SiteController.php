@@ -126,8 +126,13 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
-     public function actionRecepies()
+    public function actionRecepies()
     {
         return $this->render('recepies');
+    }
+
+    public function actionBlog()
+    {
+        return $this->render('blog');
     }
 }
